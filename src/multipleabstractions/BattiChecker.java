@@ -1,10 +1,12 @@
 package multipleabstractions;
 
+import multipleabstractions.MyAbstractClasses.BattiAbstract;
+
 public class BattiChecker {
 
-	MyAbstractClasses.BattiAbstract battiaAbs;
+	BattiAbstract battiaAbs;
 
-	public BattiChecker(MyAbstractClasses.BattiAbstract battiAbs) {
+	public BattiChecker(BattiAbstract battiAbs) {
 		this.battiaAbs = battiAbs;
 	}
 

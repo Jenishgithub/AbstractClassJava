@@ -1,10 +1,12 @@
 package multipleabstractions;
 
+import multipleabstractions.MyAbstractClasses.InternetAbstract;
+
 public class InternetChecker {
 
-	MyAbstractClasses.InternetAbstract internetAbs;
+	InternetAbstract internetAbs;
 
-	public InternetChecker(MyAbstractClasses.InternetAbstract abs1) {
+	public InternetChecker(InternetAbstract abs1) {
 		this.internetAbs = abs1;
 	}
 

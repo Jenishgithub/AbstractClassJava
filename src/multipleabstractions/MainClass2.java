@@ -1,9 +1,11 @@
 package multipleabstractions;
 
+import multipleabstractions.MyAbstractClasses.BattiAbstract;
+
 public class MainClass2 {
 
 	public static void main(String[] args) {
-		MyAbstractClasses.BattiAbstract battiAbs = new MyAbstractClasses().new BattiAbstract() {
+		BattiAbstract battiAbs = new MyAbstractClasses().new BattiAbstract() {
 
 			public void checkBattiStatus(boolean status) {
 				// TODO Auto-generated method stub

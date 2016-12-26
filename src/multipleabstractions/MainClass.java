@@ -1,9 +1,12 @@
 package multipleabstractions;
 
+import multipleabstractions.MyAbstractClasses.InternetAbstract;
+import multipleabstractions.MyAbstractClasses.WifiAbstract;
+
 public class MainClass {
 	public static void main(String[] args) {
 
-		MyAbstractClasses.InternetAbstract internetAbs = new MyAbstractClasses().new InternetAbstract() {
+		InternetAbstract internetAbs = new MyAbstractClasses().new InternetAbstract() {
 
 			public void checkInternetStatus(boolean status) {
 				// TODO Auto-generated method stub
@@ -15,7 +18,7 @@ public class MainClass {
 		new InternetChecker(internetAbs).thr.start();
 
 		// now check for wifi status
-		MyAbstractClasses.WifiAbstract wifiAbs = new MyAbstractClasses().new WifiAbstract() {
+		WifiAbstract wifiAbs = new MyAbstractClasses().new WifiAbstract() {
 
 			public void checkWifiStatus(boolean status) {
 				// TODO Auto-generated method stub

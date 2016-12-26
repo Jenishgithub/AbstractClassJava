@@ -1,10 +1,12 @@
 package multipleabstractions;
 
+import multipleabstractions.MyAbstractClasses.WifiAbstract;
+
 public class WifiChecker {
 
-	MyAbstractClasses.WifiAbstract wifiAbs;
+	WifiAbstract wifiAbs;
 
-	public WifiChecker(MyAbstractClasses.WifiAbstract wifiAbs) {
+	public WifiChecker(WifiAbstract wifiAbs) {
 		this.wifiAbs = wifiAbs;
 	}
 
